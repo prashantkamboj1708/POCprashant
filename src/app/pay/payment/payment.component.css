@@ -1,0 +1,74 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+body{
+ overflow-x: hidden;
+ background-color:cornsilk
+}
+nav{
+    position: fixed;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    margin-left: 200px;
+}
+form{
+    margin-left: 100px;
+}
+.btn-danger{
+height:60px;
+}
+#ver{
+    width:100px;
+}
+footer{
+    height:50px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+footer pre{
+margin-top: 12px;
+    text-align:center;
+    color:aliceblue;
+    
+}
+.content{
+    display: flex;
+
+}
+.navbar{
+    position:static;
+}
+.sidepanel{
+   position: static;
+   width:12%;
+    height:92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.btn-outline-dark{
+    margin:20px;
+    border:1px solid white;
+    width:max-content;
+}
+.sidenav{
+    margin-bottom:100px ;
+  position: fixed;
+    height:92vh;
+    width: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

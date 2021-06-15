@@ -1,0 +1,76 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+body{
+ overflow-x: hidden;
+    background-color:cornsilk
+}
+nav{
+    position: fixed;
+}
+footer{
+    height:70px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+footer pre{
+
+    text-align:center;
+    color:aliceblue;
+    
+}
+.content{
+    display: flex;
+
+}
+.navbar{
+    position:static;
+}
+.sidepanel{
+   position: static;
+   width:12%;
+    height:75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.btn-outline-dark{
+    margin:20px;
+    width:max-content ;
+    border: 1px solid white;
+
+}
+.tile img{
+    height:100%;
+    width:100%;
+}
+.sidenav{
+    /* margin-bottom:100px ; */
+    margin-top: 30px;
+  position: fixed;
+    height:75vh;
+    width: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    height: 75vh;
+    background-color: bisque;
+    width:100%;
+}
+
+body{
+    overflow: hidden;
+}
+mat-grid-tile {
+    background: rgb(200, 214, 219);
+  }
+

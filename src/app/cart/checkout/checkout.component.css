@@ -1,0 +1,75 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+body{
+ overflow-x: hidden;
+ background-color:cornsilk
+}
+nav{
+    position: fixed;
+}
+footer{
+    height:50px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+footer pre{
+margin-top: 12px;
+    text-align:center;
+    color:aliceblue;
+    
+}
+.content{
+    display: flex;
+
+}
+.navbar{
+    position:static;
+}
+.sidepanel{
+   position: static;
+   width:12%;
+    height:92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.btn-outline-dark{
+    margin:20px;
+    border:1px solid white;
+    width: max-content;
+}
+.sidenav{
+    margin-bottom:100px ;
+  position: fixed;
+    height:92vh;
+    width: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    
+  
+}
+#shoppingcart{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.btn-sm{
+    width:30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.btn-dark{
+    margin-left:450px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}

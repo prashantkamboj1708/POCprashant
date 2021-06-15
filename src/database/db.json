@@ -1,0 +1,288 @@
+{
+  "users": [
+    {
+      "name": "prashant kamboj",
+      "email": "prashantkamboj1708@gmal.com",
+      "Id": 100,
+      "password": "123456",
+      "cpassword": "123456",
+      "cart": [],
+      "verified": true,
+      "id": 4
+    }
+  ],
+  "products": {
+    "all": [
+      {
+        "brand": "Oneplus",
+        "name": "Oneplus 9",
+        "img": "assets/images/prod1.jpg",
+        "id": 2,
+        "price": 54900,
+        "quantity": 0
+      },
+      {
+        "brand": "Apple",
+        "name": "Iphone 12",
+        "img": "assets/images/prod2.jpg",
+        "id": 1,
+        "price": 75900,
+        "quantity": 0
+      },
+      {
+        "brand": "Samsung",
+        "name": "Samsung galaxy M11",
+        "img": "assets/images/prod3.jpg",
+        "id": 3,
+        "price": 15900,
+        "quantity": 0
+      },
+      {
+        "brand": "Mi",
+        "name": "Redmi note 10",
+        "img": "assets/images/prod4.jpg",
+        "id": 4,
+        "price": 21900,
+        "quantity": 0
+      },
+      {
+        "brand": "HP",
+        "name": "HP pavillion",
+        "img": "assets/images/prod5.jpg",
+        "id": 5,
+        "price": 80900,
+        "quantity": 0
+      },
+      {
+        "brand": "Lenovo",
+        "name": "Lenovo Ideapad",
+        "img": "assets/images/prod6.jpg",
+        "id": 6,
+        "price": 70900,
+        "quantity": 0
+      },
+      {
+        "brand": "Asus",
+        "name": "Asus zenbook",
+        "img": "assets/images/prod7.jpg",
+        "id": 7,
+        "price": 72900,
+        "quantity": 0
+      },
+      {
+        "brand": "Apple",
+        "name": "Macbook Air",
+        "img": "assets/images/prod8.jpg",
+        "id": 8,
+        "price": 90900,
+        "quantity": 0
+      },
+      {
+        "brand": "Adidas",
+        "name": "Men's Regular T-shirt",
+        "img": "assets/images/prod13.jpg",
+        "id": 13,
+        "price": 749,
+        "quantity": 0
+      },
+      {
+        "brand": "Red Tape",
+        "name": "Men's Classic T-shirt",
+        "img": "assets/images/prod14.jpg",
+        "id": 14,
+        "price": 549,
+        "quantity": 0
+      },
+      {
+        "brand": "Allen Solly",
+        "name": "Men's Polo",
+        "img": "assets/images/prod15.jpg",
+        "id": 15,
+        "price": 699,
+        "quantity": 0
+      },
+      {
+        "brand": "Superdry",
+        "name": "Superdry Slim Fit",
+        "img": "assets/images/prod16.jpg",
+        "id": 16,
+        "price": 3999,
+        "quantity": 0
+      },
+      {
+        "brand": "Skechers",
+        "name": "Walking Shoes",
+        "img": "assets/images/prod25.jpg",
+        "id": 25,
+        "price": 4399,
+        "quantity": 0
+      },
+      {
+        "brand": "Skechers",
+        "name": "running shoes",
+        "img": "assets/images/prod26.jpg",
+        "id": 26,
+        "price": 8899,
+        "quantity": 0
+      },
+      {
+        "brand": "Adidas",
+        "name": "running shoes",
+        "img": "assets/images/prod27.jpg",
+        "id": 27,
+        "price": 5399,
+        "quantity": 0
+      },
+      {
+        "brand": "Nike",
+        "name": "Nike Airmax",
+        "img": "assets/images/prod28.jpg",
+        "id": 28,
+        "price": 9399,
+        "quantiy": 0
+      },
+      {
+        "brand": "Nike",
+        "name": "Airmax sneakers",
+        "img": "assets/images/prod29.jpg",
+        "id": 29,
+        "price": 9990,
+        "quantiy": 0
+      }
+    ],
+    "clothing": [
+      {
+        "brand": "Adidas",
+        "name": "Men's Regular T-shirt",
+        "img": "assets/images/prod13.jpg",
+        "id": 13,
+        "price": 749,
+        "quantity": 0
+      },
+      {
+        "brand": "Red Tape",
+        "name": "Men's Classic T-shirt",
+        "img": "assets/images/prod14.jpg",
+        "id": 14,
+        "price": 549,
+        "quantity": 0
+      },
+      {
+        "brand": "Allen Solly",
+        "name": "Men's Polo",
+        "img": "assets/images/prod15.jpg",
+        "id": 15,
+        "price": 699,
+        "quantity": 0
+      },
+      {
+        "brand": "Superdry",
+        "name": "Superdry Slim Fit",
+        "img": "assets/images/prod16.jpg",
+        "id": 16,
+        "price": 3999,
+        "quantity": 0
+      }
+    ],
+    "electronics": [
+      {
+        "brand": "Oneplus",
+        "name": "Oneplus 9",
+        "img": "assets/images/prod1.jpg",
+        "id": 2,
+        "price": 54900,
+        "quantity": 0
+      },
+      {
+        "brand": "Apple",
+        "name": "Iphone 12",
+        "img": "assets/images/prod2.jpg",
+        "id": 1,
+        "price": 75900,
+        "quantity": 0
+      },
+      {
+        "brand": "Samsung",
+        "name": "Samsung galaxy M11",
+        "img": "assets/images/prod3.jpg",
+        "id": 3,
+        "price": 15900,
+        "quantity": 0
+      },
+      {
+        "brand": "Mi",
+        "name": "Redmi note 10",
+        "img": "assets/images/prod4.jpg",
+        "id": 4,
+        "price": 21900,
+        "quantity": 0
+      },
+      {
+        "brand": "HP",
+        "name": "HP pavillion",
+        "img": "assets/images/prod5.jpg",
+        "id": 5,
+        "price": 80900,
+        "quantity": 0
+      },
+      {
+        "brand": "Lenovo",
+        "name": "Lenovo Ideapad",
+        "img": "assets/images/prod6.jpg",
+        "id": 6,
+        "price": 70900,
+        "quantity": 0
+      },
+      {
+        "brand": "Asus",
+        "name": "Asus zenbook",
+        "img": "assets/images/prod7.jpg",
+        "id": 7,
+        "price": 72900,
+        "quantity": 0
+      },
+      {
+        "brand": "Apple",
+        "name": "Macbook Air",
+        "img": "assets/images/prod8.jpg",
+        "id": 8,
+        "price": 90900,
+        "quantity": 0
+      }
+    ],
+    "footwear": [
+      {
+        "brand": "Skechers",
+        "name": "Walking Shoes",
+        "img": "assets/images/prod25.jpg",
+        "id": 25,
+        "price": 4399,
+        "quantity": 0
+      },
+      {
+        "brand": "Skechers",
+        "name": "running shoes",
+        "img": "assets/images/prod26.jpg",
+        "id": 26,
+        "price": 8899,
+        "quantity": 0
+      },
+      {
+        "brand": "Adidas",
+        "name": "running shoes",
+        "img": "assets/images/prod27.jpg",
+        "id": 27,
+        "price": 5399,
+        "quantity": 0
+      },
+      {
+        "brand": "Nike",
+        "name": "Nike Airmax",
+        "img": "assets/images/prod28.jpg",
+        "id": 28,
+        "price": 9399,
+        "quantiy": 0
+      }
+    ]
+  }
+}

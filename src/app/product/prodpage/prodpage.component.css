@@ -1,0 +1,108 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.d-flex{
+    position:relative;
+    right:10px;
+}
+
+body{
+ overflow-x: hidden;
+ background-color:cornsilk
+}
+nav{
+    position: fixed;
+}
+footer{
+    height:50px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+footer pre{
+margin-top: 12px;
+    text-align:center;
+    color:aliceblue;
+    
+}
+.content{
+    display: flex;
+
+}
+.navbar{
+    position:static;
+}
+.sidepanel{
+   position: static;
+   width:12%;
+    height:92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.btn-outline-dark{
+   margin:20px;
+   border:1px solid white;
+   width: max-content;
+}
+.sidenav{
+    margin-bottom:100px ;
+  position: fixed;
+    height:92vh;
+    width: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+    
+}
+
+.main{
+    height: max-content;
+    width: 100%;
+   
+}
+#products{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: max-content;
+    flex-wrap:wrap;
+    width: 100%;
+    margin-top:20px;
+    margin-left:40px;
+}
+
+.example-card {
+    width: 270px;
+    height: max-content;
+    margin:10px;
+    height:360px;
+   box-sizing: border-box;
+   border-radius: 10%;
+    
+  
+  }
+  .example-card img{
+      height:150px;
+      width:150px;
+      margin-left: 50px;
+      margin-top:10px;
+  }
+  #brand{
+  margin-left: 110px;
+  font-weight: bolder;
+}
+.forms{
+    display: flex;
+    justify-content: flex-end;
+}
+.mains{
+    margin:0px 0px 0px 10px;
+   
+   
+}

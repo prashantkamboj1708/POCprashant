@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+       <div class="container-fluid">
+      <a class="navbar-brand" href="#">Shopingtime</a>
+  </div>
+    
+        <div class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"[(ngModel)]="search">
+          <button (click)="searched()" class="btn btn-outline-success" type="submit">Search</button>
+    </div>
+  </div>
+</nav>
+<div class="content">
+  <div class="sidepanel">
+    
+   <div class="sidenav">
+     <button (click)="home()" class="btn btn-outline-dark">Home <img src="https://image.flaticon.com/icons/png/512/1946/1946436.png"height="15px"width="20px"></button>
+     <button (click)="gotoproducts()" class="btn btn-outline-dark">Products <img src="https://image.flaticon.com/icons/png/512/1170/1170628.png"height="15px"width="20px"></button>
+     <div class="cart">
+      <mat-icon *ngIf="number" matBadge="{{no}}" matBadgeColor="warn"></mat-icon>cart<img (click)="gotocheckout()" src="https://img-premium.flaticon.com/png/512/2838/premium/2838838.png?token=exp=1623740560~hmac=41a35289bf179edda445ee3e659262ff"height="20px"width="20px">
+    </div>
+     <button (click)="home()" class="btn btn-outline-dark">About <img src="https://image.flaticon.com/icons/png/512/1/1176.png"height="15px"width="20px"></button>
+     <button (click)="logout()" class="btn btn-outline-dark">Log Out <img src="https://image.flaticon.com/icons/png/512/1828/1828479.png"height="15px"width="20px"></button>
+   </div>
+    
+  </div>
+  <div  class="main">
+    <div class="forms">
+    <form class="mains">
+      <mat-form-field appearance="fill">
+        <mat-label>{{choosen2}}</mat-label>
+        <mat-select [(ngModel)]="selectedValue" name="food">
+          <mat-option (click)="all()">
+            All
+            </mat-option>
+          <mat-option (click)="electronics()">
+           Electronics
+           </mat-option>
+          <mat-option (click)='clothing()'>
+           Clothing
+          </mat-option>
+          <mat-option (click)='footwear()'>
+            Footwear
+           </mat-option>
+        </mat-select>
+      </mat-form-field>
+      </form>
+    <form class="mains">
+<mat-form-field appearance="fill">
+      <mat-label>{{choosen1}}</mat-label>
+      <mat-select [(ngModel)]="selectedValue" name="food">
+        
+        <mat-option (click)="none()">
+         none
+         </mat-option>
+        <mat-option (click)="lowtohigh()">
+         Price:Low to high
+        </mat-option>
+        <mat-option (click)="hightolow()">
+          Price:high to low
+         </mat-option>
+      </mat-select>
+    </mat-form-field>
+    </form>
+    </div>
+    <hr>
+  <div id="products">
+  <div *ngFor="let item of alllist,let i=index">
+  <mat-card class="example-card">
+      <img mat-card-image src="{{item.img}}"height="100px"alt="">
+      <hr>
+      <mat-card-content>
+        <h4>{{item.name}}</h4>
+      <span>{{item.price | currency:'INR':true}}</span>
+      </mat-card-content>
+      <mat-card-actions>
+        <button (click)="Addtocart(item.id,item)" mat-raised-button color="primary">Add to cart</button>
+      </mat-card-actions>
+    </mat-card>&nbsp;&nbsp;
+    <br>
+   </div>
+   </div>
+  </div>
+</div>
+<footer>
+  <pre>Copyright 2021</pre>
+   </footer>
+</body>
+
+</html>

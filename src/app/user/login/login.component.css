@@ -1,0 +1,37 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+#logo{
+    margin-left: 190px;
+    height:80px;
+    border-radius: 50%;
+}
+body{
+    background-color:cornsilk
+}
+.btn-outline-secondary{
+    position: relative;
+    left:445px;
+    bottom:43px;
+    
+  }
+.container{
+    width:40%;
+    height:max-content;
+    margin-top:100px;
+}
+.form-control{
+    width:70%;
+    margin-left: 70px;
+    
+    
+}
+label{
+    margin-left: 70px;
+}
+#dark1{
+    margin-left: 70px;
+    width: 360px;
+}
+span{
+    color: rgb(134, 83, 83);
+    margin-left: 140px;
+}

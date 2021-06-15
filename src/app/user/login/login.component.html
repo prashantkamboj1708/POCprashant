@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Shopingtime</a>
+    
+  </div>
+</nav>
+<div class="container shadow p-3 mb-5 bg-body rounded">   
+    <h3>Log In</h3>
+    <form [formGroup]="login"(ngSubmit)="loggingin()">
+        <label for="Email">Email</label><br>
+        <input type="email"id="Email"formControlName="email"class="form-control">
+        <br>
+        <label for="Password">Password</label><br>
+        <input type="password"id="Password"formControlName="password"class="form-control">
+        <br>
+        <button type="submit" class="btn btn-dark"id="dark1">Login</button>
+        <br>
+        <br>
+        <span *ngIf="isvalid">please enter valid credentials</span>
+    </form>
+    <br>
+    <br>
+</div>
+</body>

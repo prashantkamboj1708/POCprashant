@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Shopingtime</a>
+    
+  </div>
+</nav>
+<div class="container shadow p-3 mb-5 bg-body rounded">
+    <h3>Create Account</h3>
+    <form [formGroup]="register">
+        <label for="name">Your Name</label><br>
+        <input type="text"formControlName="name"class="form-control">
+        <br>
+        <label for="Email">Email</label><br>
+        <input type="email"formControlName="email"class="form-control">
+        <br>
+        <label for="Id">ID</label><br>
+        <input type="number"formControlName="Id"class="form-control">
+        <br>
+        <label for="Password">Password</label><br>
+        <input type="password"formControlName="password"class="form-control">
+        <br>
+        <label for="name">Re-enter Password</label><br>
+        <input type="password"formControlName="cpassword" class="form-control">
+        <br>
+        <button type="submit" (click)="registeruser()"[disabled]="!register.valid" class="btn btn-dark"id="dark1">create your account</button>
+        <br>
+        <br>
+        <button (click)="gotologin()" class="btn btn-dark" style="margin-left: 40%;">Log in</button>
+        <br>
+        <br>        
+        <span>By creating an account,you aggree to our<br>
+        <a href="#">Terms and conditions</a> and <a href="#"id="a2">Privacy policy</a></span>
+        <p *ngIf="verify">Verify your account below</p>
+        <p *ngIf="incorrect"id="incorr">Passwords does'nt match</p>
+    </form>
+    <br>
+    <br>
+</div>
+<br>
+<form class="contact-form" (ngSubmit)="sendEmail($event)">
+    <input [hidden]="true" type="text" name="user_name"[(ngModel)]="name">
+    <input [hidden]="true" type="email" name="user_email"[(ngModel)]="email">
+    <textarea [hidden]="true" name="message"[(ngModel)]="otp"></textarea>
+    <input *ngIf="verify" type="submit"class="btn btn-dark" value="Click here to verify your Account"id="ver">
+</form>
+<div *ngIf="verifyclicked" class="container"id="verifybox">
+    <h4>otp has been sent on your mail</h4>
+    <input type="number"class="form-control"[(ngModel)]="verifyotp">
+    <button (click)="verification()"  class="btn btn-success">verify</button>
+</div>
+<footer>
+    <pre>Copyright 2021</pre>
+     </footer>
+</body>
